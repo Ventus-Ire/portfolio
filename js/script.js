@@ -8,6 +8,7 @@
     let researchURL = "https://github.com/Ventus-Ire/Vrm-Built";
     let unrealURL = "https://github.com/Ventus-Ire/Unreal_VR_Interactions";
     let touhouURL = "https://people.rit.edu/akn7003/230/project1/project.html";
+    let vfxURL = "https://www.youtube.com/watch?v=Obhj9VXxxiA"
 
 
     function init() {
@@ -31,8 +32,8 @@
             openWindow(unrealURL);
         }
 
-        document.querySelector("#touhou").onclick = function () {
-            openWindow(touhouURL);
+        document.querySelector("#vfx").onclick = function () {
+            openWindow(vfxURL);
         }
 
     }
